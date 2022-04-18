@@ -1,6 +1,16 @@
 body{
-  background-color: #B6FFCE;
+  background-color:#D4ECDD;
 }
 hr{
-  border-style:dotted;
+  align-items: center;
+  border-top: 5px;
+  border-style:dotted none none none;
+  width: 10%;
+border-color:#112031;
+}
+.t{
+  font-family: monospace;
+}
+h1,h3{
+  color: #345B63;
 }
