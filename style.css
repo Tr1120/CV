@@ -1,16 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@1,300&family=Sacramento&display=swap');
 body{
-  background-color:#D4ECDD;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#345B63;
 }
-hr{
-  align-items: center;
-  border-top: 5px;
-  border-style:dotted none none none;
-  width: 10%;
-border-color:#112031;
+.top{
+  background-color: #D4ECDD;
+  position:relative;
 }
-.t{
-  font-family: monospace;
+h1{
+  margin-top:0;
+font-family: 'Sacramento', cursive;
+font-size: 60px;
 }
-h1,h3{
-  color: #345B63;
+h3{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.bottom-cloud{
+position:absolute;
+  width:200px;
+  margin-right: 300px;
+}
+
+.top-cloud{
+  margin:20px 0px 20px 500px ;
+  width:200px;
+}
+.comp {
+  border-radius: 80%;
 }
